@@ -22,7 +22,7 @@ class CocktailCardState extends State<CocktailCard> {
           borderRadius: BorderRadius.circular(20.0),
         ),
         elevation: 3,
-        margin: EdgeInsets.all(10),
+        margin: const EdgeInsets.all(10),
         child: Row(
           children: [
             Expanded(

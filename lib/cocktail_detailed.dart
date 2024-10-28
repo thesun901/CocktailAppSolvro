@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'cocktail_card.dart';
 import 'cocktail_api.dart';
-import 'cocktail_detailed.dart';
 
 class CocktailDetailed extends StatelessWidget {
   final DrinkDetailed detailed;
@@ -29,7 +26,7 @@ class CocktailDetailed extends StatelessWidget {
                       height: 200,
                       width: 200,
                       clipBehavior: Clip.antiAlias,
-                      decoration: BoxDecoration(shape: BoxShape.circle),
+                      decoration: const BoxDecoration(shape: BoxShape.circle),
                       child: Image.network(
                         detailed.imageUrl,
                         fit: BoxFit.fill,

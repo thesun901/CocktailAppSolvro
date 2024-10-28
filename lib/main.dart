@@ -107,7 +107,7 @@ class DrinksScreenState extends State<DrinksScreen> {
                   NON_ALCOHOLIC_STRINGS.any((s) => s == query)));
         }).toList();
 
-        if (page < maxPage && filteredDrinks.length < 5) {
+        if (page <= maxPage && filteredDrinks.length < 5 && !isLoading) {
           _fetchDrinks();
         }
       }
@@ -139,7 +139,7 @@ class DrinksScreenState extends State<DrinksScreen> {
     return Column(
       children: [
         SearchBar(
-          leading: Icon(Icons.search),
+          leading: const Icon(Icons.search),
           controller: _searchController,
           hintText: 'Search for a cocktail, glass, category etc...',
           onChanged: (query) {
