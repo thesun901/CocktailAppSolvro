@@ -28,7 +28,8 @@ Cocktail App is a simple application that allows user to search for cocktail rec
 
 ### Code Structure
 
-* **main.dart**: The main entry point of the app. Contains the main UI for listing cocktails, search bar functionality, and filter logic.
+* **main.dart**: The main entry point of the app.
+* **drinks_screen.dart**: Contains the main UI for listing cocktails, search bar functionality, and filter logic.
 * **cocktail_card.dart**: Definition of *CocktailCard* widged used on a main screen of application.
 * **cocktail_detailed.dart**: Defines detailed view for each cocktail, accessible by tapping on a cocktail in the list.
 * **cocktail_api.dart**: Handles API requests for fetching cocktail data. Defines *Drink* and *DrinkDetailed* classes that store data from API responses.
