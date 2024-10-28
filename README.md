@@ -20,7 +20,7 @@ Cocktail App is a simple application that allows user to search for cocktail rec
 
 ![main view](https://i.postimg.cc/FFfW7fnS/Simulator-Screenshot-i-Phone-16-Pro-2024-10-28-at-09-36-53.png)
 ![detailed view](https://i.postimg.cc/qB9mnk95/Simulator-Screenshot-i-Phone-16-Pro-2024-10-28-at-09-37-20.png)
-![searching for drink](https://i.postimg.cc/0N0Y6v7h/Simulator-Screenshot-i-Phone-16-Pro-2024-10-28-at-10-14-35.png)
+![searching for drink](https://i.postimg.cc/0yfdtmNb/Simulator-Screenshot-i-Phone-16-Pro-2024-10-28-at-10-18-36.png)
 ![searching for alcohol-free drinks](https://i.postimg.cc/TYdZh2gv/Simulator-Screenshot-i-Phone-16-Pro-2024-10-28-at-10-11-21.png)
 
 
