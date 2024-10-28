@@ -131,11 +131,9 @@ Future<DrinkDetailed> fetchDetailed(int id) async {
   final response =
       await get(Uri.parse('https://cocktails.solvro.pl/api/v1/cocktails/$id'));
 
-  print(response.statusCode);
 
   if (response.statusCode == 200) {
     final Map<String, dynamic> jsonResponse = jsonDecode(response.body);
-    print("decoded");
 
     return DrinkDetailed.fromJson(jsonResponse['data']);
   } else {
